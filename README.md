@@ -2,6 +2,9 @@
 This repository is remembering my logs.
 
 ---
+## 20250521
+解决tomato的可视化和结果解读；学习自建cistarget拿到feather和tbl文件做peanut的pySCENIC分析；总结知识，从内容上，gold standard逻辑，建立通用性分析流程
+
 ## 2025-05--20
 1.做GRN分析的软件有那些？已知的就是pySCENIC，但是pySCENIC依赖于motif和TF信息，我在plantTFDB里面没有发现peanut的数据，所以现在很难办；2.是否存在不依赖于库的做GRN分析，即非监督的unsupervise的分析；3.如果没有unsupervise的方法，那我们可能需要做prediction和同源转换。
 GRN分析一直没有解决，内容总结，通用性测试，流程搭建和结果解读。
