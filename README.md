@@ -8,6 +8,18 @@ pySCENIC运行比较复杂！
 2. pySCENIC环境的搭建与运行，之前用的别人的环境，生成的AUCell数据格式有问题，后面用biomamba的代码搭建的环境运行速度太慢，应该是worker没有配置好，与其如此直接用作者的pySCENIC的docker来跑；
 3. 可视化部分要用到R版本的SCENIC，所以就有了环境GRN-SCENIC-R
 
+**Gold Standard** of Scripts
+```
+# Title: deal_genome.R
+# Date: 20250522
+# Coder: ydgenomics
+# Description:
+# Input: gtf file and fasta file
+# Output:
+# Image: 
+# Reference: https://mp.weixin.qq.com/s/7-vKrLiFS4Tlkt-rHxEGeQ; https://github.com/aertslab/create_cisTarget_databases
+```
+
 ## 20250521
 解决tomato的可视化和结果解读；学习自建cistarget拿到feather和tbl文件做peanut的pySCENIC分析；总结知识，从内容上，gold standard逻辑，建立通用性分析流程
 
