@@ -3,9 +3,17 @@ This repository is remembering my logs.
 
 ---
 ## 20250523
+WPS提供的流程绘制是很好展示我们工作逻辑的工具，规范流程绘制有利于提高绘制效率和快速理解流程
+
+**Gold Standard** of *Pating workflow of WPS*
+```
+1. 文件符号
+2. 工作/处理符号
+```
+
 基因名不对应的问题一直困扰着我们，当我们在处理基因的时候常常无法很好对应，总是需要在相应的分析流程中考虑到这个问题，显然是低效率的，所以要做到一开始就要考虑到这个问题，基因组的gtf文件和蛋白质fasta序列中的注释要一致，那么那些下游分析就可以很好杜绝这种问题！！！
 
-**Gold Standard** of file upstream-preparation
+**Gold Standard** of *file upstream-preparation*
 ```shell
 # 1. .fasta and .gtf files of genome
 # 2. .fasta file of protein
@@ -20,7 +28,7 @@ pySCENIC运行比较复杂！
 2. pySCENIC环境的搭建与运行，之前用的别人的环境，生成的AUCell数据格式有问题，后面用biomamba的代码搭建的环境运行速度太慢，应该是worker没有配置好，与其如此直接用作者的pySCENIC的docker来跑；
 3. 可视化部分要用到R版本的SCENIC，所以就有了环境GRN-SCENIC-R
 
-**Gold Standard** of Scripts
+**Gold Standard** of *Scripts*
 ```
 # Title: deal_genome.R
 # Date: 20250522
