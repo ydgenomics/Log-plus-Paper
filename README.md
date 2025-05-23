@@ -2,6 +2,9 @@
 This repository is remembering my logs.
 
 ---
+## 20250523
+提出peanut单细胞矩阵中基因名和蛋白质基因名不对应的问题。发现gtf里面有关基因名是两列，transcription_id和gene_id。transcription_id和蛋白质序列是对应的，有.1后缀，说明建好的index和scRNA-seq流程倾向于使用gene_id，为了解决这个问题，后面的分析最好把期望的基因id放在gene_id里面。对于gtf文件的处理，使用GRN-SCENIC-database环境！
+
 ## 20250522
 pySCENIC运行比较复杂！
 1. 非模式物种要建cistarget_databases
