@@ -4,6 +4,7 @@ This repository is remembering my logs.
 ---
 ## 20250527
 学习数学和大语言模型，并整理细胞类型的注释
+[李沐深度学习](https://courses.d2l.ai/zh-v2)
 
 ## 20250626
 完成了对convert_rdsAh5ad.R的测试和封装
