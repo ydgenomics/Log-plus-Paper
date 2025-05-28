@@ -1,10 +1,10 @@
 # Log
 This repository is remembering my logs.
 
-**Gold Standard** of *pre-wdl pattern*
-**Gold Standard** of *Pating workflow of WPS*
-**Gold Standard** of *file upstream-preparation*
-**Gold Standard** of *Scripts*
+- **Gold Standard** of *pre-wdl pattern*
+- **Gold Standard** of *Pating workflow of WPS*
+- **Gold Standard** of *file upstream-preparation*
+- **Gold Standard** of *Scripts*
 
 ---
 ## 20250528
