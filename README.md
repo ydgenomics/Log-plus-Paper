@@ -1,9 +1,14 @@
 # Log
 This repository is remembering my logs.
 
+**Gold Standard** of *pre-wdl pattern*
+**Gold Standard** of *Pating workflow of WPS*
+**Gold Standard** of *file upstream-preparation*
+**Gold Standard** of *Scripts*
+
 ---
 ## 20250528
-学习整理多种方式做单细胞数据注释
+整理多种方法的单细胞数据注释
 
 **Gold Standard** of *pre-wdl pattern*
 ```wdl
@@ -37,7 +42,6 @@ task sayHello{
     Int mem
   }
   command {
-    echo "hello, "
     if [ -f "file" ]; then
     echo "file"
     fi
@@ -51,7 +55,6 @@ task sayHello{
     File response = stdout()
   }
 }
-
 ```
 ## 20250527
 学习数学和大语言模型，并整理细胞类型的注释
@@ -96,7 +99,7 @@ pySCENIC运行比较复杂！
 2. pySCENIC环境的搭建与运行，之前用的别人的环境，生成的AUCell数据格式有问题，后面用biomamba的代码搭建的环境运行速度太慢，应该是worker没有配置好，与其如此直接用作者的pySCENIC的docker来跑；
 3. 可视化部分要用到R版本的SCENIC，所以就有了环境GRN-SCENIC-R
 
-**Gold Standard** of *Scripts*
+[^1]: **Gold Standard** of *Scripts*
 ```
 # Title: deal_genome.R
 # Date: 20250522
