@@ -2,6 +2,57 @@
 This repository is remembering my logs.
 
 ---
+## 20250528
+学习整理多种方式做单细胞数据注释
+
+**Gold Standard** of *pre-wdl pattern*
+```wdl
+version 1.0
+workflow Hello{
+  input{
+    File? file
+    String name="world"
+    Int cpu
+    Int mem
+    String url="workflow/centos:7"
+  }
+  call sayHello{
+    input:
+    file=file,
+    name=name,
+    cpu=cpu,
+    mem=mem,
+    url=url,
+  }
+  output{
+    File result=sayHello.response
+  }
+}
+task sayHello{
+  input {
+    File? file
+    String name
+    String url
+    Int cpu
+    Int mem
+  }
+  command {
+    echo "hello, "
+    if [ -f "file" ]; then
+    echo "file"
+    fi
+  }
+  runtime {
+    docker_url: "~{url}"
+    req_cpu: cpu
+    req_memory: "~{mem}Gi"
+  }
+  output {
+    File response = stdout()
+  }
+}
+
+```
 ## 20250527
 学习数学和大语言模型，并整理细胞类型的注释
 [李沐深度学习](https://courses.d2l.ai/zh-v2)
