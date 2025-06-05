@@ -7,6 +7,10 @@ This repository is remembering my logs.
 - **Gold Standard** of *Scripts*
 
 ---
+## 20250605
+规律的工作时间，专注一定的生信流程部署，另外就是兼顾数学，英语，计算科学的学习
+今天学习hdWGCNA
+
 ## 20250528
 整理多种方法的单细胞数据注释
 
