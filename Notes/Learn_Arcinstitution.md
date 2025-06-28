@@ -1,1 +1,1 @@
-![cell_molecular](image/image.png)
+![cell_molecular](png/image.png)
