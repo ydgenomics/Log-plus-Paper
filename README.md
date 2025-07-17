@@ -7,6 +7,11 @@ This repository is remembering my logs.
 - **Gold Standard** of *Scripts*
 
 ---
+## 20250717
+1. IReNA的三种应用场景的整理，以及从公共数据到跑的数据的整理
+2. 发表级的FeaturePlot，ViolinPlot，Heatmap整理，作为sctype的marker check
+
+
 ## 20250605
 规律的工作时间，专注一定的生信流程部署，另外就是兼顾数学，英语，计算科学的学习
 今天学习hdWGCNA
