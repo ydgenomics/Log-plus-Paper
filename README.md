@@ -7,6 +7,10 @@ This repository is remembering my logs.
 - **Gold Standard** of *Scripts*
 
 ---
+## 250829
+![work](./PNG/每周工作250719_0825-0829.png)
+
+
 ## 20250718
 1. gene2role算法学习
 2. cellrank2轨迹推断
