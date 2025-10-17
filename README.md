@@ -7,6 +7,13 @@ This repository is remembering my logs.
 - **Gold Standard** of *Scripts*
 
 ---
+## 251015
+- 基于转录组作为参考对单细胞数据进行定量
+- 大尺度的跨物种整合(SAMap & SATURN)
+
+## 251014
+BBKNN整合算法其核心是替换了scanpy的`sc.pp.neighbors()`函数，所以我们将BBKNNR的rds转h5ad获得的pca其实是unintegrated的，所以这里有很大的问题，我们应该使用BBKNNpy算。另外就是scib-metric真的支持一个对象多个obsm吗，或者说它真的只计算obsm，而不考虑到neighbors和connection吗，根据best-practice-single-cell，其实将对象整合起来是有问题的，应该要分开来做分析。
+
 ## 20250905
 ![work](./PNG/work_250901-250905.png)
 
