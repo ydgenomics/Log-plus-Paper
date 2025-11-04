@@ -7,6 +7,16 @@ This repository is remembering my logs.
 - **Gold Standard** of *Scripts*
 
 ---
+## Future work
+- bulk RNA/ATAC analysis
+- cell annotation of scRNA
+- benchmarking of single-cell data QC (scQCkit)
+- scATAC with Signac
+- ST
+- Combination of scRNA & scATAC 
+- Genome(sequence/assemble/annotation/comparation)
+- Cotton project
+
 ## 251015
 - 基于转录组作为参考对单细胞数据进行定量
 - 大尺度的跨物种整合(SAMap & SATURN)
